@@ -1,6 +1,70 @@
-/* This is where styles are defined for your page. */
-/* One style is provided as example. */
+/* Styles for WATS 3010 Basic CSS Assignment */
 
-h1 {
-    color: green;
+
+body {
+	font-family: "Arial", Helvetica, sans-serif;
+	background-image: url("images/hiking-the-sand-dunes.jpg");
+	background-size: cover;
+	line-height: 1.5em;
+}
+
+.page-header {
+    background-color: rgb(255,255,255); 
+	background-color: rgba(255, 255, 255, 0.8);
+    margin: 1%;
+    padding: 1%;
+    border-radius: 1.75em;
+}
+
+section {
+	background-color: rgb(255,255,255); 
+	background-color: rgba(255, 255, 255, 0.8);
+	width: 50%;
+	padding: 1%;
+    margin-bottom: 2%;
+	border-radius: 1.75em;
+	float:left;
+}
+
+aside {
+    background-color: rgb(255,255,255); 
+	background-color: rgba(255, 255, 255, 0.8);
+	width: 35%;
+	padding: 1%;
+	border-radius: 1.75em;
+	float: right;
+}
+
+.page-footer {
+    background-color: rgb(255,255,255); 
+	background-color: rgba(255, 255, 255, 0.8); 
+	border-radius: 1.75em;
+	margin: 2%;
+	padding: 2%;
+	overflow: hidden;
+	clear: both;
+}
+
+h2 {
+	color: rgb(11,68,126);
+	border-top: 2px dotted rgb(71,48,25);
+	border-bottom: 2px dotted rgb(71,48,25);
+	overflow: hidden;
+}
+
+li {
+	list-style-type: none;
+}
+
+img {
+	width: 90%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.social-links li {
+	float: left;
+	margin-right: 2em;
 }

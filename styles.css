@@ -40,6 +40,7 @@ h2 {
 	border-top: 2px dotted rgb(71,48,25);
 	border-bottom: 2px dotted rgb(71,48,25);
 	margin-bottom: 0;
+	overflow: hidden;
 }
 
 a:link {

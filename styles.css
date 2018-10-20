@@ -40,7 +40,6 @@ h2 {
 	border-top: 2px dotted rgb(71,48,25);
 	border-bottom: 2px dotted rgb(71,48,25);
 	margin-bottom: 0;
-	overflow: hidden;
 }
 
 a:link {
@@ -84,7 +83,7 @@ section ol {
 }
 
 .content-footer {
-	float: right;
+	text-align: right;
 }
 
 aside {
@@ -144,6 +143,7 @@ div.citation {
     
     section {
         width: 95%;
+        padding: 3%;
         margin-top: 2%;
         margin-left: auto;
         margin-right: auto;
@@ -152,6 +152,7 @@ div.citation {
     
     aside {
         width: 95%;
+        padding: 3%;
         margin-left: auto;
         margin-right: auto;
         float: none;

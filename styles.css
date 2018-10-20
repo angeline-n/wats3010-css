@@ -132,11 +132,13 @@ img {
 div.citation {
 	display: inline-block;
 	float: left;
-	margin-right: 22%;
+	padding: 0 0.75%;
 }
+
 	
 .page-credits {
     text-align: right;
     font-size: 0.75em;
 	margin: 0;
+	clear: both;
 }
